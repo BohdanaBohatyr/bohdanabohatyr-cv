@@ -1,0 +1,109 @@
+body {
+  margin-left: 25px;
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: left;
+}
+
+.social {
+    display: flex;
+}
+
+.social img {
+    width: 100%;
+    box-shadow: none;
+    
+}
+
+.social a {
+    width: 25px;
+    margin-right: 20px;
+    
+}
+
+.nobr {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+img {
+  margin-right: 25px;
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+form {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+}
+
+h2 {
+  background: linear-gradient(to right, rgb(140, 140, 232), white);
+  width: 100%;
+  color: white;
+  text-shadow: 1px 0 10px rgb(27, 26, 26);
+  font-family: "Staatliches", cursive;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+}
+
+.about {
+  width: 100%;
+  padding: 15px 0px;
+  
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    display: flex;
+    border: 1px rgb(140, 140, 232) solid;
+    background: transparent ;
+    box-shadow: none;
+    padding: 5px 25px;
+    color:rgb(140, 140, 232) ;
+    width: 15%;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+button:hover {
+    background-color:rgb(140, 140, 232) ;
+    color: white;
+}
+
